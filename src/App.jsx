@@ -8,12 +8,12 @@ function App() {
   const [cart, setCart] = useState([])
   
   function addToCart(item){
+    const itemExists = cart.findIndex(())
     setCart(prevCart => [...prevCart, item])
   }
   return (
     <>
       <Header />
-
       <main className="container-xl mt-5">
         <h2 className="text-center">Nuestra Colección</h2>
 
